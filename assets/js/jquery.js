@@ -26,7 +26,7 @@
 			factory( global, true ) :
 			function( w ) {
 				if ( !w.document ) {
-					throw new Error( "jQuery requires a window with a document" );
+					throw new Error( "jQuery necesita una ventana con un documento." );
 				}
 				return factory( w );
 			};
